@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://Camilla-Bz.github.io/manifest-prova/manifests/manifest_prova.json",
     "label" : "[Click to edit label]"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Camilla-Bz.github.io/manifest-prova/manifests/manifest-prova.json",
+    "label" : "[Click to edit label]"
   } ]
 }
