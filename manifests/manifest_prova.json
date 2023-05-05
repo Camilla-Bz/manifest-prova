@@ -1,0 +1,311 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Camilla-Bz.github.io/manifest-prova/manifests/manifest_prova.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://cfe6a5da-adbb-42f8-a02a-e1d567ffa03b",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://290b0700-740a-4ee8-848f-808aaa07688c",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1014,
+      "width" : 1280,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://663bb26b-de1a-4bf1-b45f-46404c029323",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/image.tiff/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/image.tiff",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1297920,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1014,
+          "width" : 1280
+        },
+        "on" : "http://290b0700-740a-4ee8-848f-808aaa07688c"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://f76e7acd-8458-455e-a020-1168f4df2015",
+      "@type" : "sc:Canvas",
+      "label" : "Nude Descending a Staircase, n.2",
+      "height" : 1971,
+      "width" : 1200,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://31f1c48d-20fc-4c26-a68d-1b2af7924f73",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/duchamp.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/duchamp.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2365200,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1971,
+          "width" : 1200
+        },
+        "on" : "http://f76e7acd-8458-455e-a020-1168f4df2015"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "Nude Descending a Staircase (No. 2)"
+      }, {
+        "label" : "Artist",
+        "value" : "Marcel Duchamp"
+      }, {
+        "label" : "Category",
+        "value" : "Contemporary Art"
+      }, {
+        "label" : "Art Movement",
+        "value" : "Cubism"
+      }, {
+        "label" : "Description",
+        "value" : "Nude Descending a Staircase (No. 2) peels away the traditional beauty of the nude in art, its carnality, even its identifiable sex. Instead, the painting aims to expand our perception of the human body in motion, a topic of fascination for Duchamp around this time. Though the work exemplifies his extremely original engagement with Cubism, it also precipitated his break with the Cubists. When Duchamp presented it for exhibition in Paris in 1912, fellow Cubists on the hanging committee tried to exclude it. They may have objected to the idea of painting dynamic movement, or the unfamiliar subject of a nude on a flight of stairs, or the title written in block letters at the lower margin. When the work was finally presented at the Armory Show, which made the case for modern art to large audiences in New York in 1913, it met with a hostile public reaction—and cemented Duchamp’s reputation as an artistic provocateur."
+      }, {
+        "label" : "Datel",
+        "value" : "1912"
+      } ]
+    }, {
+      "@id" : "http://53dc3fbe-fd98-4094-b360-16494516ee36",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1061,
+      "width" : 1536,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0569ada7-2e3d-462e-bde3-43c035806934",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/rist.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/rist.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 1629696,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1061,
+          "width" : 1536
+        },
+        "on" : "http://53dc3fbe-fd98-4094-b360-16494516ee36"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://ef768a1e-e349-4d3b-bc73-c9620ffa9df5",
+      "@type" : "sc:Canvas",
+      "label" : "A Colour Box",
+      "height" : 576,
+      "width" : 768,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1ee77130-44bb-4313-b662-72c77eb8e2e3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/lye.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/lye.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 442368,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 576,
+          "width" : 768
+        },
+        "on" : "http://ef768a1e-e349-4d3b-bc73-c9620ffa9df5"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Title",
+        "value" : "A Colour Box"
+      }, {
+        "label" : "Creator",
+        "value" : "Len Lye"
+      }, {
+        "label" : "Type",
+        "value" : "Film"
+      }, {
+        "label" : "Description ",
+        "value" : "Lye’s first “direct” (camera-less) animation combined popular Cuban dance music with hand-painted abstract designs. Screened in many cinemas in Britain, the film had a huge impact because of its novelty and because it divided audiences – some viewers loved it, others hated it. Colour was still a novelty and Lye’s direct painting on celluloid created brilliant colours. The film won festival awards, though some festivals had to invent a special category for this new style of animation. In Venice, the Fascists disrupted screenings because they saw it as “degenerate” modern art. The film was funded and distributed by John Grierson’s GPO Film Unit on the condition that Lye included a postal advertisement at the end. The film has been restored by the British Film Institute. "
+      } ]
+    }, {
+      "@id" : "http://559a21c3-1336-4d63-839f-d41286201ecc",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 751,
+      "width" : 960,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b2b20f77-a799-4e67-8535-05a8e5a1fe1f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/p_magnet.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/p_magnet.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 720960,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 751,
+          "width" : 960
+        },
+        "on" : "http://559a21c3-1336-4d63-839f-d41286201ecc"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://aceae37b-97a2-4fcf-9a7c-1d614a0c1dd5",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1214,
+      "width" : 2048,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7aca3ed8-2ced-4c7c-9c68-b420230d7f1e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/arcangel.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/arcangel.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2486272,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1214,
+          "width" : 2048
+        },
+        "on" : "http://aceae37b-97a2-4fcf-9a7c-1d614a0c1dd5"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://f853f8cd-a6d1-4732-bc41-d0854f93abee",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 1617,
+      "width" : 2000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://5683f6d6-3f29-49d9-bcbc-5cd96c8683b4",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/jodi.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/jodi.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 3234000,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1617,
+          "width" : 2000
+        },
+        "on" : "http://f853f8cd-a6d1-4732-bc41-d0854f93abee"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://3c0cf0fc-d11e-45b0-bab4-c2c178016a82",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 194,
+      "width" : 259,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://90a5f4ad-f2dd-48cc-a371-c3f6d83e8e66",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://localhost:8182/iiif/2/menkman.jpeg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://localhost:8182/iiif/2/menkman.jpeg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 50246,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 194,
+          "width" : 259
+        },
+        "on" : "http://3c0cf0fc-d11e-45b0-bab4-c2c178016a82"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://07a97bfd-0661-4cf1-89cf-225a5277e2f0",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 0,
+      "width" : 0,
+      "images" : [ ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
